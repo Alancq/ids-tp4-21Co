@@ -45,12 +45,7 @@ SPDX-License-Identifier: MIT
 /* === Public function implementation ========================================================== */
 
 int main(void) {
-    // gpioSetDirection(LED_ROJO_PUERTO,LED_ROJO_BIT,true);
-    // gpioSetOutput(LED_ROJO_PUERTO,LED_ROJO_BIT,true);
-
-    gpio_t led_rojo = gpioCreate(LED_ROJO_PUERTO, LED_ROJO_BIT);
-    gpioSetDirection(LED_ROJO_PUERTO, LED_ROJO_BIT, true);
-    gpioSetOutput(led_rojo, true);
+    return 0;
 }
 
 /* === End of documentation ==================================================================== */
