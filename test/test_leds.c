@@ -34,7 +34,7 @@ void test_prender_dos_y_apagar_un_solo_led(void) {
     leds_turn_on(3);
     leds_turn_on(7);
     leds_turn_off(3);
-    TEST_ASSERT_EQUAL_HEX16(1 << (6 - 1), puerto_virtual);
+    TEST_ASSERT_EQUAL_HEX16(1 << 6, puerto_virtual);
 }
 
 // Prender y apagar todos los leds juntos.
