@@ -26,7 +26,6 @@ SPDX-License-Identifier: MIT
 /* === Headers files inclusions =============================================================== */
 
 #include "main.h"
-#include "gpio.h"
 /* === Macros definitions ====================================================================== */
 #define LED_ROJO_PUERTO 1
 #define LED_ROJO_BIT    7
